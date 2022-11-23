@@ -22,6 +22,3 @@ shutil.copy("test02.bin.dat","test02.bin")
 shutil.move("test02.bin.dat","movetest02.bin")
 # Delete file
 os.remove('test02.bin')
-
-
-

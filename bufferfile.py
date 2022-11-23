@@ -24,5 +24,5 @@ print(f"> saved queue: {my_queue.queue}")
 # load
 with open("my_saved_queue.obj","rb") as myqueue_save_file:
     my_loaded_queue: Queue = pickle.load(myqueue_save_file)
-
+ 
 print(f"> loaded queue: {my_loaded_queue.queue}")

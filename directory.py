@@ -50,4 +50,3 @@ path3="E:/testcreate"
 os.rmdir(path3)
 print('！DIR Remove successfully!')  #New DIR created successfully!
 
-
